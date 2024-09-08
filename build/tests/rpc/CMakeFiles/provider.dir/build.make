@@ -56,10 +56,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mywork/sylar-from-suycx-master
+CMAKE_SOURCE_DIR = /home/mywork/mywork/sylar_from_hyacinthus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mywork/sylar-from-suycx-master/build
+CMAKE_BINARY_DIR = /home/mywork/mywork/sylar_from_hyacinthus/build
 
 # Include any dependencies generated for this target.
 include tests/rpc/CMakeFiles/provider.dir/depend.make
@@ -75,30 +75,30 @@ include tests/rpc/CMakeFiles/provider.dir/flags.make
 tests/rpc/CMakeFiles/provider.dir/userservice.cc.o: tests/rpc/CMakeFiles/provider.dir/flags.make
 tests/rpc/CMakeFiles/provider.dir/userservice.cc.o: ../tests/rpc/userservice.cc
 tests/rpc/CMakeFiles/provider.dir/userservice.cc.o: tests/rpc/CMakeFiles/provider.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/sylar-from-suycx-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/rpc/CMakeFiles/provider.dir/userservice.cc.o"
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/rpc/CMakeFiles/provider.dir/userservice.cc.o -MF CMakeFiles/provider.dir/userservice.cc.o.d -o CMakeFiles/provider.dir/userservice.cc.o -c /home/mywork/sylar-from-suycx-master/tests/rpc/userservice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/mywork/sylar_from_hyacinthus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/rpc/CMakeFiles/provider.dir/userservice.cc.o"
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/rpc/CMakeFiles/provider.dir/userservice.cc.o -MF CMakeFiles/provider.dir/userservice.cc.o.d -o CMakeFiles/provider.dir/userservice.cc.o -c /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/userservice.cc
 
 tests/rpc/CMakeFiles/provider.dir/userservice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/userservice.cc.i"
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/sylar-from-suycx-master/tests/rpc/userservice.cc > CMakeFiles/provider.dir/userservice.cc.i
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/userservice.cc > CMakeFiles/provider.dir/userservice.cc.i
 
 tests/rpc/CMakeFiles/provider.dir/userservice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/userservice.cc.s"
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/sylar-from-suycx-master/tests/rpc/userservice.cc -o CMakeFiles/provider.dir/userservice.cc.s
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/userservice.cc -o CMakeFiles/provider.dir/userservice.cc.s
 
 tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o: tests/rpc/CMakeFiles/provider.dir/flags.make
 tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o: ../tests/rpc/user.pb.cc
 tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o: tests/rpc/CMakeFiles/provider.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/sylar-from-suycx-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o"
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o -MF CMakeFiles/provider.dir/user.pb.cc.o.d -o CMakeFiles/provider.dir/user.pb.cc.o -c /home/mywork/sylar-from-suycx-master/tests/rpc/user.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mywork/mywork/sylar_from_hyacinthus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o"
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o -MF CMakeFiles/provider.dir/user.pb.cc.o.d -o CMakeFiles/provider.dir/user.pb.cc.o -c /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/user.pb.cc
 
 tests/rpc/CMakeFiles/provider.dir/user.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/user.pb.cc.i"
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/sylar-from-suycx-master/tests/rpc/user.pb.cc > CMakeFiles/provider.dir/user.pb.cc.i
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/user.pb.cc > CMakeFiles/provider.dir/user.pb.cc.i
 
 tests/rpc/CMakeFiles/provider.dir/user.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/user.pb.cc.s"
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/sylar-from-suycx-master/tests/rpc/user.pb.cc -o CMakeFiles/provider.dir/user.pb.cc.s
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/user.pb.cc -o CMakeFiles/provider.dir/user.pb.cc.s
 
 # Object files for target provider
 provider_OBJECTS = \
@@ -113,18 +113,18 @@ provider_EXTERNAL_OBJECTS =
 ../bin/provider: tests/rpc/CMakeFiles/provider.dir/build.make
 ../bin/provider: ../lib/libsylar.so
 ../bin/provider: tests/rpc/CMakeFiles/provider.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/sylar-from-suycx-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/provider"
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/provider.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mywork/mywork/sylar_from_hyacinthus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/provider"
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/provider.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/rpc/CMakeFiles/provider.dir/build: ../bin/provider
 .PHONY : tests/rpc/CMakeFiles/provider.dir/build
 
 tests/rpc/CMakeFiles/provider.dir/clean:
-	cd /home/mywork/sylar-from-suycx-master/build/tests/rpc && $(CMAKE_COMMAND) -P CMakeFiles/provider.dir/cmake_clean.cmake
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc && $(CMAKE_COMMAND) -P CMakeFiles/provider.dir/cmake_clean.cmake
 .PHONY : tests/rpc/CMakeFiles/provider.dir/clean
 
 tests/rpc/CMakeFiles/provider.dir/depend:
-	cd /home/mywork/sylar-from-suycx-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mywork/sylar-from-suycx-master /home/mywork/sylar-from-suycx-master/tests/rpc /home/mywork/sylar-from-suycx-master/build /home/mywork/sylar-from-suycx-master/build/tests/rpc /home/mywork/sylar-from-suycx-master/build/tests/rpc/CMakeFiles/provider.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mywork/mywork/sylar_from_hyacinthus /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc /home/mywork/mywork/sylar_from_hyacinthus/build /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc/CMakeFiles/provider.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/rpc/CMakeFiles/provider.dir/depend
 

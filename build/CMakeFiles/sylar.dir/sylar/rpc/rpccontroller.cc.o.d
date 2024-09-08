@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/rpc/rpccontroller.cc.o: \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpccontroller.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpccontroller.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpccontroller.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpccontroller.h \
  /usr/local/include/google/protobuf/service.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

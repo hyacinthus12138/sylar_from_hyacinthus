@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/http/http-parser/http_parser.c.o: \
- /home/mywork/sylar-from-suycx-master/sylar/http/http-parser/http_parser.c \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/http/http-parser/http_parser.c \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/http/http-parser/http_parser.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/http/http-parser/http_parser.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

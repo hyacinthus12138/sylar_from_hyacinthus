@@ -60,10 +60,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mywork/sylar-from-suycx-master
+CMAKE_SOURCE_DIR = /home/mywork/mywork/sylar_from_hyacinthus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mywork/sylar-from-suycx-master/build
+CMAKE_BINARY_DIR = /home/mywork/mywork/sylar_from_hyacinthus/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mywork/sylar-from-suycx-master/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/sylar-from-suycx-master/build/CMakeFiles /home/mywork/sylar-from-suycx-master/build/tests/rpc//CMakeFiles/progress.marks
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/sylar-from-suycx-master/build/CMakeFiles 0
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/mywork/sylar_from_hyacinthus/build/CMakeFiles /home/mywork/mywork/sylar_from_hyacinthus/build/tests/rpc//CMakeFiles/progress.marks
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mywork/mywork/sylar_from_hyacinthus/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/clean
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/preinstall
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/preinstall
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mywork/sylar-from-suycx-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/rpc/CMakeFiles/caller.dir/rule:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/CMakeFiles/caller.dir/rule
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/CMakeFiles/caller.dir/rule
 .PHONY : tests/rpc/CMakeFiles/caller.dir/rule
 
 # Convenience name for target.
@@ -175,12 +175,12 @@ caller: tests/rpc/CMakeFiles/caller.dir/rule
 
 # fast build rule for target.
 caller/fast:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/build
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/build
 .PHONY : caller/fast
 
 # Convenience name for target.
 tests/rpc/CMakeFiles/provider.dir/rule:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/CMakeFiles/provider.dir/rule
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/rpc/CMakeFiles/provider.dir/rule
 .PHONY : tests/rpc/CMakeFiles/provider.dir/rule
 
 # Convenience name for target.
@@ -189,7 +189,7 @@ provider: tests/rpc/CMakeFiles/provider.dir/rule
 
 # fast build rule for target.
 provider/fast:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/build
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/build
 .PHONY : provider/fast
 
 calluserservice.o: calluserservice.cc.o
@@ -197,7 +197,7 @@ calluserservice.o: calluserservice.cc.o
 
 # target to build an object file
 calluserservice.cc.o:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.o
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.o
 .PHONY : calluserservice.cc.o
 
 calluserservice.i: calluserservice.cc.i
@@ -205,7 +205,7 @@ calluserservice.i: calluserservice.cc.i
 
 # target to preprocess a source file
 calluserservice.cc.i:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.i
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.i
 .PHONY : calluserservice.cc.i
 
 calluserservice.s: calluserservice.cc.s
@@ -213,7 +213,7 @@ calluserservice.s: calluserservice.cc.s
 
 # target to generate assembly for a file
 calluserservice.cc.s:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.s
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.s
 .PHONY : calluserservice.cc.s
 
 user.pb.o: user.pb.cc.o
@@ -221,8 +221,8 @@ user.pb.o: user.pb.cc.o
 
 # target to build an object file
 user.pb.cc.o:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/user.pb.cc.o
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/user.pb.cc.o
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/user.pb.cc.o
 .PHONY : user.pb.cc.o
 
 user.pb.i: user.pb.cc.i
@@ -230,8 +230,8 @@ user.pb.i: user.pb.cc.i
 
 # target to preprocess a source file
 user.pb.cc.i:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/user.pb.cc.i
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/user.pb.cc.i
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/user.pb.cc.i
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/user.pb.cc.i
 .PHONY : user.pb.cc.i
 
 user.pb.s: user.pb.cc.s
@@ -239,8 +239,8 @@ user.pb.s: user.pb.cc.s
 
 # target to generate assembly for a file
 user.pb.cc.s:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/user.pb.cc.s
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/user.pb.cc.s
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/caller.dir/build.make tests/rpc/CMakeFiles/caller.dir/user.pb.cc.s
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/user.pb.cc.s
 .PHONY : user.pb.cc.s
 
 userservice.o: userservice.cc.o
@@ -248,7 +248,7 @@ userservice.o: userservice.cc.o
 
 # target to build an object file
 userservice.cc.o:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/userservice.cc.o
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/userservice.cc.o
 .PHONY : userservice.cc.o
 
 userservice.i: userservice.cc.i
@@ -256,7 +256,7 @@ userservice.i: userservice.cc.i
 
 # target to preprocess a source file
 userservice.cc.i:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/userservice.cc.i
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/userservice.cc.i
 .PHONY : userservice.cc.i
 
 userservice.s: userservice.cc.s
@@ -264,7 +264,7 @@ userservice.s: userservice.cc.s
 
 # target to generate assembly for a file
 userservice.cc.s:
-	cd /home/mywork/sylar-from-suycx-master/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/userservice.cc.s
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(MAKE) $(MAKESILENT) -f tests/rpc/CMakeFiles/provider.dir/build.make tests/rpc/CMakeFiles/provider.dir/userservice.cc.s
 .PHONY : userservice.cc.s
 
 # Help Target
@@ -301,6 +301,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mywork/sylar-from-suycx-master/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mywork/mywork/sylar_from_hyacinthus/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

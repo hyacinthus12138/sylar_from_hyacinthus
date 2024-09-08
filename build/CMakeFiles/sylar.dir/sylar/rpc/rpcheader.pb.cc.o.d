@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/rpc/rpcheader.pb.cc.o: \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcheader.pb.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcheader.pb.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcheader.pb.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcheader.pb.h \
  /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

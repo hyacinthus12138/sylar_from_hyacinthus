@@ -566,12 +566,9 @@ void LoggerManager::init() {
 }
 
 std::string LoggerManager::toYamlString() {
-  
     MutexType::Lock lock(m_mutex);
     YAML::Node node;
-    // std::cout << "to yaml stri232ng" << std::endl;
     for(auto& i : m_loggers) {
-        // std::cout << "to yaml string" << i << std::endl;
         node.push_back(YAML::Load(i.second->toYamlString()));
     }
     std::stringstream ss;
@@ -705,7 +702,7 @@ struct LogIniter {
                 } else {
                     if(!(i == *it)) {
                         // 修改的logger
-                        logger == SYLAR_LOG_NAME(i.name);
+                        SYLAR_LOG_NAME(i.name);
                     } else {
                         continue;
                     }

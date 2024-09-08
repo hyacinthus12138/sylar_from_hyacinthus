@@ -1,5 +1,5 @@
 tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.o: \
- /home/mywork/sylar-from-suycx-master/tests/rpc/calluserservice.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/calluserservice.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -109,7 +109,7 @@ tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.o: \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
- /home/mywork/sylar-from-suycx-master/sylar/endian.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/endian.h \
  /usr/include/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
@@ -144,7 +144,7 @@ tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/mywork/sylar-from-suycx-master/tests/rpc/user.pb.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/user.pb.h \
  /usr/include/c++/11/limits \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
@@ -279,9 +279,7 @@ tests/rpc/CMakeFiles/caller.dir/calluserservice.cc.o: \
  /usr/local/include/google/protobuf/message.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/11/cassert /usr/local/include/google/protobuf/service.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcapplication.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcconfig.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcchannel.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcheader.pb.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpccontroller.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcchannel.h
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcapplication.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcconfig.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcchannel.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcheader.pb.h

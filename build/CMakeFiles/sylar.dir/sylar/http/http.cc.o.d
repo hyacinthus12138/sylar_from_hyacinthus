@@ -1,8 +1,8 @@
 CMakeFiles/sylar.dir/sylar/http/http.cc.o: \
- /home/mywork/sylar-from-suycx-master/sylar/http/http.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/http/http.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/http/http.h \
- /home/mywork/sylar-from-suycx-master/sylar/http/http-parser/http_parser.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/http/http.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/http/http-parser/http_parser.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -719,6 +719,6 @@ CMakeFiles/sylar.dir/sylar/http/http.cc.o: \
  /usr/include/boost/math/tools/real_cast.hpp \
  /usr/include/boost/integer.hpp /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp \
- /home/mywork/sylar-from-suycx-master/./sylar/util.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/./sylar/util.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/c++/11/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h

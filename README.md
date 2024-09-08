@@ -85,5 +85,3 @@ sudo make install
   - 目前这个版本是对mprpc的基本复现
   - 如果要改长连接，provider端不用改太多，caller端的代码可能要再写一份实现，原本项目中的 channel 中每次rpc调用都会重新分配一个socket进行连接-->发送-->接收，长连接的话应该重新写一份channel的实现，记录对端地址、在zookeeper上注册watcher等
   - 这个目前在分布式KV中参考原项目改了一个简单版的长连接rpc。但是不能作为通用型。后续优化价值不大，成熟的项目直接用gRPC
-
-- github基本不再更新，之后用 [gitee](https://gitee.com/suycx)

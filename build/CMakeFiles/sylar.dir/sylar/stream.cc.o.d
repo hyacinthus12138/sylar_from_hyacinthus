@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/stream.cc.o: \
- /home/mywork/sylar-from-suycx-master/sylar/stream.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/stream.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/stream.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/stream.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -114,7 +114,7 @@ CMakeFiles/sylar.dir/sylar/stream.cc.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/mywork/sylar-from-suycx-master/sylar/bytearray.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/bytearray.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \

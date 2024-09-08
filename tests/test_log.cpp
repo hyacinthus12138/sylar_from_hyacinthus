@@ -1,4 +1,4 @@
-#include "../sylar/sylar.h"
+#include "sylar/sylar.h"
 
 #include <unistd.h>
 
@@ -45,10 +45,9 @@ int main(int argc, char *argv[]) {
     SYLAR_LOG_ERROR(test_logger) << "err msg";
     SYLAR_LOG_INFO(test_logger) << "info msg"; // 不打印
 
-    // std::cout << "fuck your mother" << std::endl;
     // 输出全部日志器的配置
     g_logger->setLevel(sylar::LogLevel::INFO);
-    // std::cout << "fuck your mother" << std::endl;
+    SYLAR_LOG_INFO(g_logger) << "logger config:" << sylar::LoggerMgr::GetInstance()->toYamlString();
 
     return 0;
 }

@@ -1,7 +1,7 @@
 tests/rpc/CMakeFiles/caller.dir/user.pb.cc.o: \
- /home/mywork/sylar-from-suycx-master/tests/rpc/user.pb.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/user.pb.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/tests/rpc/user.pb.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc/user.pb.h \
  /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -107,7 +107,7 @@ tests/rpc/CMakeFiles/caller.dir/user.pb.cc.o: \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
- /home/mywork/sylar-from-suycx-master/sylar/endian.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/endian.h \
  /usr/include/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \

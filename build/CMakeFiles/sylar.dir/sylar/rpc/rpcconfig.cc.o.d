@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/rpc/rpcconfig.cc.o: \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcconfig.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcconfig.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcconfig.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcconfig.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

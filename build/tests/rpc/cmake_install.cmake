@@ -1,4 +1,4 @@
-# Install script for directory: /home/mywork/sylar-from-suycx-master/tests/rpc
+# Install script for directory: /home/mywork/mywork/sylar_from_hyacinthus/tests/rpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

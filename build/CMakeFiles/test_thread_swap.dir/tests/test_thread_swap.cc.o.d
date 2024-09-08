@@ -1,5 +1,5 @@
 CMakeFiles/test_thread_swap.dir/tests/test_thread_swap.cc.o: \
- /home/mywork/sylar-from-suycx-master/tests/test_thread_swap.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/tests/test_thread_swap.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

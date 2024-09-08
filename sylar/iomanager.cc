@@ -5,12 +5,14 @@
  * @date 2021-06-16
  */
 
-#include <unistd.h>    // for pipe()
-#include <sys/epoll.h> // for epoll_xxx()
-#include <fcntl.h>     // for fcntl()
 #include "iomanager.h"
 #include "log.h"
 #include "macro.h"
+// #include "util.h"
+#include <cstring>     // for memset()
+#include <fcntl.h>     // for fcntl()
+#include <sys/epoll.h> // for epoll_xxx()
+#include <unistd.h>    // for pipe()
 
 namespace sylar {
 
@@ -111,7 +113,8 @@ IOManager::IOManager(size_t threads, bool use_caller, const std::string &name)
     // 关注pipe读句柄的可读事件，用于tickle协程
     epoll_event event;
     memset(&event, 0, sizeof(epoll_event));
-    event.events  = EPOLLIN | EPOLLET;
+    // event.events  = EPOLLIN | EPOLLET;
+    event.events = EPOLLIN;
     event.data.fd = m_tickleFds[0];
 
     // 非阻塞方式，配合边缘触发

@@ -1,8 +1,8 @@
 CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o: \
- /home/mywork/sylar-from-suycx-master/sylar/streams/socket_stream.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/socket_stream.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/socket_stream.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../stream.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/socket_stream.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../stream.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -115,7 +115,7 @@ CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../bytearray.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../bytearray.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
@@ -166,9 +166,9 @@ CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o: \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../socket.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../socket.h \
  /usr/include/netinet/tcp.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../address.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../address.h \
  /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/string.h \
  /usr/include/strings.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -200,36 +200,25 @@ CMakeFiles/sylar.dir/sylar/streams/socket_stream.cc.o: \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../noncopyable.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../mutex.h \
- /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
- /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../noncopyable.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../mutex.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /usr/include/c++/11/atomic /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../iomanager.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../scheduler.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../fiber.h \
+ /usr/include/c++/11/atomic \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../iomanager.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../scheduler.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
+ /usr/include/c++/11/bits/list.tcc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../fiber.h \
  /usr/include/ucontext.h \
  /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../thread.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../mutex.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../log.h \
- /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/cstdarg \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../util.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/c++/11/cxxabi.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../singleton.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../timer.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../thread.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../mutex.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../timer.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/mywork/sylar-from-suycx-master/sylar/streams/../util.h
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/streams/../util.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/c++/11/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h

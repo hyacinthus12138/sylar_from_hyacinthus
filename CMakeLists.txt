@@ -1,4 +1,3 @@
-
 # 顶层 CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.10)
@@ -24,14 +23,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-unused-function -Wno-builtin-macro-
 include_directories(.)
 include_directories(/usr/local/include)
 
-link_directories(/usr/local/lib)
-
 option(BUILD_TEST "ON for complile test" ON)
 
-find_package(Boost REQUIRED) 
-if(Boost_FOUND)
-    include_directories(${Boost_INCLUDE_DIRS})
-endif()
+# find_package(Boost REQUIRED) 
+# if(Boost_FOUND)
+#     include_directories(${Boost_INCLUDE_DIRS})
+# endif()
 
 # 源文件列表
 set(LIB_SRC
@@ -86,7 +83,7 @@ set(LIBS
 
 # 仅使用上面 libsylar.so 的构建过程中，如果 yaml-cpp 等库没有明确地链接
 # 链接器可能无法找到并解析 sylar 中所需的符号，导致使用 sylar库 链接阶段报出符号未定义的错误。
-target_link_libraries(sylar PRIVATE yaml-cpp zookeeper_mt pthread dl protobuf)
+target_link_libraries(sylar PRIVATE yaml-cpp zookeeper_mt dl protobuf pthread)
 
 if(BUILD_TEST)
     sylar_add_executable(test_log "tests/test_log.cpp" sylar "${LIBS}")

@@ -1,7 +1,7 @@
 CMakeFiles/sylar.dir/sylar/rpc/rpcchannel.cc.o: \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcchannel.cc \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcchannel.cc \
  /usr/include/stdc-predef.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcchannel.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcchannel.h \
  /usr/local/include/google/protobuf/service.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -276,7 +276,7 @@ CMakeFiles/sylar.dir/sylar/rpc/rpcchannel.cc.o: \
  /usr/local/include/google/protobuf/io/zero_copy_stream.h \
  /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
  /usr/local/include/google/protobuf/stubs/stl_util.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcheader.pb.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/rpcheader.pb.h \
  /usr/local/include/google/protobuf/generated_message_table_driven.h \
  /usr/local/include/google/protobuf/map.h \
  /usr/local/include/google/protobuf/map_type_handler.h \
@@ -285,10 +285,7 @@ CMakeFiles/sylar.dir/sylar/rpc/rpcchannel.cc.o: \
  /usr/local/include/google/protobuf/inlined_string_field.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/11/cassert \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpccontroller.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcapplication.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/rpcconfig.h \
- /home/mywork/sylar-from-suycx-master/sylar/rpc/zookeeperutil.h \
+ /home/mywork/mywork/sylar_from_hyacinthus/sylar/rpc/zookeeperutil.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/local/include/zookeeper/zookeeper.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
